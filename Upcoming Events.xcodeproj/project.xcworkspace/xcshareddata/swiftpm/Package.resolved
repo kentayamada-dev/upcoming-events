@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "menubarextraaccess",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/orchetect/MenuBarExtraAccess",
+      "state" : {
+        "revision" : "8757eb7c2cd708320df92e6ad6572efe90e58f16",
+        "version" : "1.0.4"
+      }
+    },
+    {
+      "identity" : "swiftformat",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/nicklockwood/SwiftFormat",
+      "state" : {
+        "revision" : "507d63f6e890621f055397c9503bfc9468e8bcb6",
+        "version" : "0.51.15"
+      }
+    }
+  ],
+  "version" : 2
+}
