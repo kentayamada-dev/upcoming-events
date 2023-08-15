@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		371599802A8A12BA00FED88E /* UpcomingEventModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3715997F2A8A12BA00FED88E /* UpcomingEventModel.swift */; };
+		371599822A8A12EB00FED88E /* CalendarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371599812A8A12EB00FED88E /* CalendarModel.swift */; };
+		371599842A8A130800FED88E /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371599832A8A130800FED88E /* Types.swift */; };
+		371599882A8A1B3900FED88E /* BaseExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371599872A8A1B3900FED88E /* BaseExtension.swift */; };
+		3715998A2A8A1B9D00FED88E /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371599892A8A1B9D00FED88E /* DateExtension.swift */; };
+		3715998C2A8A22B800FED88E /* CalendarData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3715998B2A8A22B800FED88E /* CalendarData.swift */; };
+		3715998F2A8A23C700FED88E /* LabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3715998E2A8A23C700FED88E /* LabelView.swift */; };
+		371599912A8A24D600FED88E /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371599902A8A24D600FED88E /* ListView.swift */; };
+		371599932A8A25E900FED88E /* SettingsTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371599922A8A25E900FED88E /* SettingsTabView.swift */; };
 		37E352882A838207007211F7 /* Upcoming_EventsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E352872A838207007211F7 /* Upcoming_EventsApp.swift */; };
 		37E3528C2A838208007211F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37E3528B2A838208007211F7 /* Assets.xcassets */; };
 		37E3528F2A838208007211F7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37E3528E2A838208007211F7 /* Preview Assets.xcassets */; };
@@ -15,6 +24,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3715997F2A8A12BA00FED88E /* UpcomingEventModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingEventModel.swift; sourceTree = "<group>"; };
+		371599812A8A12EB00FED88E /* CalendarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarModel.swift; sourceTree = "<group>"; };
+		371599832A8A130800FED88E /* Types.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types.swift; sourceTree = "<group>"; };
+		371599872A8A1B3900FED88E /* BaseExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseExtension.swift; sourceTree = "<group>"; };
+		371599892A8A1B9D00FED88E /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		3715998B2A8A22B800FED88E /* CalendarData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarData.swift; sourceTree = "<group>"; };
+		3715998E2A8A23C700FED88E /* LabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelView.swift; sourceTree = "<group>"; };
+		371599902A8A24D600FED88E /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		371599922A8A25E900FED88E /* SettingsTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTabView.swift; sourceTree = "<group>"; };
 		37E352842A838207007211F7 /* Upcoming Events.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Upcoming Events.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		37E352872A838207007211F7 /* Upcoming_EventsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Upcoming_EventsApp.swift; sourceTree = "<group>"; };
 		37E3528B2A838208007211F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -35,6 +53,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3715997E2A8A12AC00FED88E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3715997F2A8A12BA00FED88E /* UpcomingEventModel.swift */,
+				371599812A8A12EB00FED88E /* CalendarModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		371599862A8A1B1C00FED88E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				371599872A8A1B3900FED88E /* BaseExtension.swift */,
+				371599892A8A1B9D00FED88E /* DateExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3715998D2A8A23BB00FED88E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3715998E2A8A23C700FED88E /* LabelView.swift */,
+				371599902A8A24D600FED88E /* ListView.swift */,
+				371599922A8A25E900FED88E /* SettingsTabView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		37E3527B2A838207007211F7 = {
 			isa = PBXGroup;
 			children = (
@@ -54,10 +100,15 @@
 		37E352862A838207007211F7 /* Upcoming Events */ = {
 			isa = PBXGroup;
 			children = (
+				3715998D2A8A23BB00FED88E /* Views */,
+				371599862A8A1B1C00FED88E /* Extensions */,
+				3715997E2A8A12AC00FED88E /* Models */,
 				37E352872A838207007211F7 /* Upcoming_EventsApp.swift */,
 				37E3528B2A838208007211F7 /* Assets.xcassets */,
 				37E352902A838208007211F7 /* Upcoming_Events.entitlements */,
 				37E3528D2A838208007211F7 /* Preview Content */,
+				371599832A8A130800FED88E /* Types.swift */,
+				3715998B2A8A22B800FED88E /* CalendarData.swift */,
 			);
 			path = "Upcoming Events";
 			sourceTree = "<group>";
@@ -148,7 +199,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				371599802A8A12BA00FED88E /* UpcomingEventModel.swift in Sources */,
+				3715998C2A8A22B800FED88E /* CalendarData.swift in Sources */,
+				3715998A2A8A1B9D00FED88E /* DateExtension.swift in Sources */,
+				371599932A8A25E900FED88E /* SettingsTabView.swift in Sources */,
+				371599882A8A1B3900FED88E /* BaseExtension.swift in Sources */,
+				371599822A8A12EB00FED88E /* CalendarModel.swift in Sources */,
+				3715998F2A8A23C700FED88E /* LabelView.swift in Sources */,
 				37E352882A838207007211F7 /* Upcoming_EventsApp.swift in Sources */,
+				371599842A8A130800FED88E /* Types.swift in Sources */,
+				371599912A8A24D600FED88E /* ListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
